@@ -18,6 +18,7 @@
   <plugin name="https://github.com/floatinghotpot/cordova-httpd.git" /> 
   
   <plugin name="https://github.com/bykof/cordova-plugin-webserver" />
+  <plugin name="cordova-plugin-websocket-server" />
   
   <plugin name="cordova-plugin-file" />
   <plugin name="cordova-plugin-media" />
