@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="test.more.servers" version="0.1.0">
+  <name>More Servers</name>
+  <description>
+    Example Tabris.js App
+  </description>
+  <author email="john@example.org">
+    John Smith
+  </author>
+  
+  <plugin name="Service-Discovery-DLNA-SSDP" spec="https://github.com/scottdermott/cordova-plugin-discovery.git" />
+
+  <plugin name="https://github.com/arjunmenon/cordova-plugin-music.git" />
+  <plugin name="https://github.com/NeoLSN/cordova-plugin-android-permissions.git" />
+
+
+  <plugin name="cordova.plugins.diagnostic" />
+  <plugin name="https://github.com/floatinghotpot/cordova-httpd.git" /> 
+  
+  <plugin name="https://github.com/bykof/cordova-plugin-webserver" />
+  
+  <plugin name="cordova-plugin-file" />
+  <plugin name="cordova-plugin-media" />
+  <plugin name="cordova-plugin-x-toast" />
+  <plugin name="cordova-plugin-network-information" />
+  <plugin name="cordova.plugins.diagnostic" />
+ 
+  <plugin name="cordova-plugin-device" />
+  <plugin name="cordova-plugin-geolocation" />
+  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+</widget>
